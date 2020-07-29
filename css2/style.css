@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    /* doi font chu */
+}
+
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.container{
+    width: 1140px;
+    height: auto;
+}
+
+.header{
+    position: absolute;
+    width: 100%;
+}
+.main-header{
+    margin: auto;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 0 85px;
+    background:#3B2774;
+    position: fixed;
+}
+.main-header .container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logo.fleft{
+    width: 33.33333%;
+    text-align: left;
+}
+.logo.fleft img {
+    padding: 10px;
+}
+.main-menu.fleft{
+    width: 33.3333333%;
+    text-align: center;
+}
+.main-menu.fleft ul li{
+    float: left;
+    list-style-type: none;
+    padding: 10px;
+    position: relative;
+}
+.main-menu.fleft ul li a{
+    text-decoration: none;
+    color: #fff;
+} 
+ul.navigation {
+    padding: 10px;
+}
+ul.submenu{
+    display: none;
+    opacity: 0;
+    position: absolute;
+}
+
+
+.sign-in.fright{
+    width: 33.3333%;
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+}
+.sign-in.fright a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+    padding-left: 10px;
+    margin-right: 40px;
+}
+.btn {
+    border: 1px solid #B367FF;
+    background: #B367FF;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: relative;
+    overflow: hidden;
+}
+.btn::before{
+    background: #8d44d6;
+}
+
+.main{
+    text-align: center;
+    width: 100%;
+    background:gree;
+    top: 50px;
+    position: relative;
+}
+
+
